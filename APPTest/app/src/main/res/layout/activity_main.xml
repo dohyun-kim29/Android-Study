@@ -6,13 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtNumFront"
+        android:layout_width="153dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
+        android:hint="주만번호 앞자리"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtName"
+        android:layout_width="238dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="이름을 입력해주새오"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="148dp"
+        android:text="주민번호 : "
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="64dp"
+        android:text="이름 :"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtNumBack"
+        android:layout_width="77dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="뒷자리"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="239dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
