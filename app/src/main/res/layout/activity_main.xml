@@ -7,13 +7,40 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/button3"
+        android:layout_width="133dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:onClick="connectNaver"
+        android:text="네이버연결"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
         android:id="@+id/button"
         android:layout_width="88dp"
         android:layout_height="48dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
         android:background="#96E0EA"
         android:onClick="onButtonClicked"
         android:text="Button"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="231dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:onClick="call"
+        android:text="전화 걸기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
