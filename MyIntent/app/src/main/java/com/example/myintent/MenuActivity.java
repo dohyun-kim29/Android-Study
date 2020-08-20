@@ -18,7 +18,11 @@ public class MenuActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                Intent intent = new Intent();
+                intent.putExtra("name", "도혀닝");
+                setResult(RESULT_OK, intent);
+               finish();
+
             }
         });
 
