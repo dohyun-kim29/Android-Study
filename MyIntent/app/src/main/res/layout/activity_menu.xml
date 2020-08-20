@@ -4,18 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AC92DA"
-    tools:context=".MainActivity">
+    tools:context=".MenuActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="328dp"
-        android:layout_marginEnd="144dp"
-        android:layout_marginRight="144dp"
-        android:background="#BDD3AE"
-        android:text="메뉴 화면 띄우기"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:text="돌아가기"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
