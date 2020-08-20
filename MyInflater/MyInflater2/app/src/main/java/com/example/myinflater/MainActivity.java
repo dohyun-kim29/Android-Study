@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
                 LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                 inflater.inflate(R.layout.sub, container, true);
 
-                CheckBox checkBox = findViewById(R.id.checkBox2);
-                checkBox.setText("확인");
+                CheckBox checkBox = container.findViewById(R.id.checkBox2);
+                checkBox.setText("확");
             }
         });
 
